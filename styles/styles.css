@@ -40,8 +40,36 @@ li a:hover {
 	margin-left : 1%;
 	float : right
 }
-#news{
+#contact{
+	background-color: #FFFFFF;
+}
+/*
+.about a:hover{
+	position: relative;
+  display: inline-block;
+}
+
+.about-content {
+  display: visible;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.about-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+*/
+
 	
+.dropdown:hover .about-content {
+  display: block;
 }
 			
 .topnav {
