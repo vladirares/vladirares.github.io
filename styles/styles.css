@@ -217,10 +217,14 @@ li a:hover {
 
 }
 
-@media only screen and (orientation: portrait) {
-  body {
-    background-color: lightblue;
-  }
+@media screen 
+  and (max-width: 320px) 
+  and (max-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	body{
+		background-color:red;
+	}
 }
 
 .slider {
