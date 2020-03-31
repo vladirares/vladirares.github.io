@@ -217,7 +217,11 @@ li a:hover {
 
 }
 
-
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: lightblue;
+  }
+}
 
 .slider {
     width: 100%;
