@@ -19,11 +19,7 @@ li a {
 	
 	}
 	
-.top{
-	display:flex:
-	flex-orientation:row;
-	
-}
+
 
 /* Change the link color on hover */
 li a:hover {
@@ -64,6 +60,12 @@ li a:hover {
 	background-image:url('../images/drill.jpg');
 	
 }
+
+.top{
+	display:flex;
+	flex-direction:row;
+	
+}
 			
 #logo{
 	width : 7rem;
@@ -71,20 +73,35 @@ li a:hover {
 	margin-top : 1%;
 	margin-bottom : 1%;
 	margin-left : 1%;
+	display;inline;
 	}
+	
+	
+.ads{
+	align:middle;
+	width:10%;
+	display:inline;
+}
 			
 #profile{
 	float : right
 }
 
 .profile{
+	display:inline;
 	position:relative;
-	top:-120px;   /*intreaba-l pe radu*/
+	float:right;
+	width:60%;
+}
+
+.profileItem{
+	width:100px;
+	background-color:#ddd;
 }
 
 #profilePic{
-	width : 5rem;
-	height :5rem;
+	width : 6.3rem;
+	height :90%;
 	margin-top : 1%;
 	margin-bottom : 1%;
 	margin-left : 1%;
