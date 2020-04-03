@@ -24,7 +24,8 @@ li a {
 	text-decoration: none;
 	
 	}
-	
+
+
 
 .notification {
   
@@ -190,6 +191,13 @@ li a:hover {
 	padding: 15px;
 	}
 
+.topnav a.home{
+	background-color: orange;
+	color: white;
+	padding: 15px;
+	display:none;
+}
+
 /* Style the search box inside the navigation bar */
 	
 .search{
@@ -290,6 +298,11 @@ li a:hover {
 		width:92%;
 		}
 		
+	 .topnav a.home{
+		 display:inline;
+		 width:60%;
+	 }
+		
 	 .profile{
 		 display:block;
 	 }
@@ -309,10 +322,13 @@ li a:hover {
 		padding: 14px;
 		background-color:white;
 	}
-	
+	/*
 	.topnav .dropdown .dropBtn{
 		background-color:red;
 	}
+	*/
+	
+	
 	
 	.top #logo{
 		display:none;
