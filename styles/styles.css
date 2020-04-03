@@ -280,9 +280,10 @@ li a:hover {
 	  }
 	  
 	  .topnav{
-		  display:flex;
+		  display:block;
 		  flex-direction:row;
 		  flex-wrap:wrap;
+		  background-color:white;
 	  }
 	  
 	 .topnav a.active {
@@ -296,6 +297,7 @@ li a:hover {
 	  
 	  .search{
 		  width:100%;
+		  background-color:#ddd;
 	  }
 	  
 	  .topnav a, .topnav input[type=text] {
