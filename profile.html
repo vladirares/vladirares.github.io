@@ -6,7 +6,10 @@
 		<meta name="description" content="Profile">
         <meta name="keywords" content="HTML,CSS,XML,JavaScript">
         <meta name="author" content="Vladimir">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
 		<title>Profile</title>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 		<link rel="stylesheet" type="text/css" href="styles/stilProfil.css">
 	</head>
 	
@@ -14,23 +17,33 @@
 		
 		<header>
 		
-		<a href="index.html"><img id="logo" src="https://github.com/vladirares/vladirares.github.io/blob/master/images/logo.PNG?raw=true" alt="logo" height="200" width="200"></img></a>
+		<div class="top">
+		<a href="index.html" id="test">
+			<img id="logo" src="images/logo.png" alt="logo" height="200" width="200">
+		</a>
 		
-		<img id="profilePic" src='https://p7.hiclipart.com/preview/201/51/681/computer-icons-customer-service-user-others.jpg' alt="imagine"></img>
-		
-		<ul id="profile">
-		  <li><a href="#profile">Profile</a></li>
-		  <li><a href="messages.html">Messages</a></li>
-		  <li><a href="#notifications">Notifications</a></li>
-		</ul>
-		
+		<div class="profile">
+			<ul id="profile">
+				<li><a href="profile.html"  class="profileItem" >Profile</a></li>
+				<li><a href="messages.html" class="profileItem">Messages</a></li>
+				<li><a href="notifications.html" class="notification profileItem">
+					  <span>Notifications</span>
+					  <span class="badge">3</span>
+					</a>
+				</li>
+				
+			</ul>	
+			<img id="profilePic" src='https://p7.hiclipart.com/preview/201/51/681/computer-icons-customer-service-user-others.jpg' alt="profile image">
+		</div>
+		</div>
+			
 		
 		<nav>
-			<section class="topnav">
-				<section class="search">
+			<div class="topnav">
+				<div class="search">
 				<input type="text" placeholder="Search..">
 				<img class="searchBtn" src='images/lupa.png' alt="imagine">
-				</section>
+				</div>
 				<a class="active" href="news.html">News</a>
 				
 				<div class="dropdown">
@@ -48,7 +61,7 @@
 					</div>
 				</div>
 				
-			</section>
+			</div>
 		</nav>
 		
 		</header>
@@ -105,14 +118,25 @@
 					<h4>
 						Personal information
 					</h4>
-							
-					<p>
-						Email address:<address> youremail@gmail.com</address>
-					</p>
 					
-					<p>
-						Username: YourUsername
-					</p>
+							
+					<table style="width:auto">
+						<tr>
+							<th>Firstname</th>
+							<td>Cosmin</td>
+						 </tr>
+						 <tr>
+							<th>Lastname</th>
+							<td>Petrescu</td>
+							
+						</tr>
+						<tr>
+							<th>Age</th>
+							<td>18</td>
+						</tr>
+						
+					</table>
+					
 			</section>
 						
 		</section>
@@ -125,19 +149,14 @@
 
 	
 		<footer>
-			<p>
-				Contact:
-			</p>
-				<address>
-					<ol>
-					
-						<li>-<a href="mailto:jeleavladimir@yahoo.ro">Vladimir</a></li>
-						<li>-<a href="mailto:random@gmail.com">Random</a> </li>
-						<li>-<a href="mailto:random@yahoo.com">Random</a> </li>
-					
-					</ol>
-				</address>
-				<a href="#">TOP</a>
+			<label for="toggle-1"> Show transaction history </label>
+			<input type="checkbox" id="toggle-1">
+			<div class="facebook"> 
+				
+			</div>
+			
+			<a href="#">TOP</a>
+			
 		</footer>
 		
 	</body>

@@ -6,6 +6,8 @@
 		<meta name="description" content="news">
         <meta name="keywords" content="HTML,CSS,XML,JavaScript">
         <meta name="author" content="Vladimir">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
 		<title>news</title>
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	</head>
@@ -16,26 +18,31 @@
 	
 		<div class="top">
 		<a href="index.html" id="test">
-			<img id="logo" src="https://github.com/vladirares/vladirares.github.io/blob/master/images/logo.PNG?raw=true" alt="logo" height="200" width="200">
+			<img id="logo" src="images/logo.png" alt="logo" height="200" width="200">
 		</a>
 		
-		<section class="profile">
+		<div class="profile">
 			<ul id="profile">
-			  <li><a href="profile.html"  class="profileItem" >Profile</a></li>
-			  <li><a href="messages.html" class="profileItem">Messages</a></li>
-			  <li><a href="#notifications" class="profileItem">Notifications</a></li>
+				<li><a href="profile.html"  class="profileItem" >Profile</a></li>
+				<li><a href="messages.html" class="profileItem">Messages</a></li>
+				<li><a href="notifications.html" class="notification profileItem">
+					  <span>Notifications</span>
+					  <span class="badge">3</span>
+					</a>
+				</li>
+				
 			</ul>	
 			<img id="profilePic" src='https://p7.hiclipart.com/preview/201/51/681/computer-icons-customer-service-user-others.jpg' alt="profile image">
-		</section>
+		</div>
 		</div>
 			
 			
-			<nav>
-			<section class="topnav">
-				<section class="search">
+		<nav>
+			<div class="topnav">
+				<div class="search">
 				<input type="text" placeholder="Search..">
 				<img class="searchBtn" src='images/lupa.png' alt="imagine">
-				</section>
+				</div>
 				<a class="active" href="news.html">News</a>
 				
 				<div class="dropdown">
@@ -53,7 +60,7 @@
 					</div>
 				</div>
 				
-			</section>
+			</div>
 		</nav>
 		
 	</header>
@@ -67,21 +74,21 @@
 		<section class="newItems">
 		
 			<ul class="content">
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/drill.jpg' alt="imagine">
 						<figcaption>bormasina bosh albastru</figcaption>
 					</figure>
 				</li>
 				
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/games.jpg' alt="imagine">
 						<figcaption>jocuri PS4</figcaption>
 					</figure>
 				</li>
 				
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/microscope.jpg' alt="imagine">
 						<figcaption>bormasina bosh albastru</figcaption>
@@ -101,39 +108,39 @@
 			<section class="about-content">
 			
 			<ul class="content">
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/drill.jpg' alt="imagine">
 						<figcaption>bormasina bosh albastru</figcaption>
 					</figure>
 				</li>
 				
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/games.jpg' alt="imagine">
 						<figcaption>jocuri PS4</figcaption>
 					</figure>
 				</li>
 				
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/drill.jpg' alt="imagine">
 						<figcaption>bormasina bosh albastru</figcaption>
 					</figure>
 				</li>
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/drill.jpg' alt="imagine">
 						<figcaption>bormasina bosh albastru</figcaption>
 					</figure>
 				</li>
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/drill.jpg' alt="imagine">
 						<figcaption>bormasina bosh albastru</figcaption>
 					</figure>
 				</li>
-				<li>
+				<li class="item">
 					<figure>
 						<img src='images/drill.jpg' alt="imagine">
 						<figcaption>bormasina bosh albastru</figcaption>
@@ -153,16 +160,10 @@
 			<p>
 				Contact:
 			</p>
-				<address>
-					<ol>
-					
-						<li>-<a href="mailto:jeleavladimir@yahoo.ro">Vladimir</a></li>
-						<li>-<a href="mailto:random@gmail.com">Random</a> </li>
-						<li>-<a href="mailto:random@yahoo.com">Random</a> </li>
-					
-					</ol>
-				</address>
-				<a href="#">TOP</a>
+			
+			<address>
+				<a href="mailto:jeleavladimir@yahoo.ro">Vladimir</a>	
+			</address>
 		</footer>
 		
 	
