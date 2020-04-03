@@ -289,11 +289,10 @@ li a:hover {
 		width:50%;
 		}
 		
-	 
+	 .profile{
+		 display:block;
+	 }
 	  
-	  #profile{
-
-	  }
 	  
 	  .search{
 		  width:100%;
@@ -311,6 +310,10 @@ li a:hover {
 	
 	.topnav .dropdown .dropBtn{
 		background-color:red;
+	}
+	
+	.top #logo{
+		display:none;
 	}
 		  
 
