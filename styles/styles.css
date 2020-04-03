@@ -301,6 +301,9 @@ li a:hover {
 	 .topnav a.home{
 		 display:inline;
 		 width:60%;
+		 margin:0;
+		 padding:17px;
+		
 	 }
 		
 	 .profile{
