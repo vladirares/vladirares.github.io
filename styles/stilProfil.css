@@ -58,6 +58,7 @@ input[type=checkbox]:checked ~ .facebook {
   padding: 5px;
   width:90vw;
   grid-auto-rows:minmax(1px,auto);
+  counter-reset: section;
 }
 
 .grid-item:nth-child(2){
@@ -77,4 +78,9 @@ input[type=checkbox]:checked ~ .facebook {
   padding: 5px;
   font-size: 24px;
   text-align: center;
+}
+
+.grid-item::before {
+  counter-increment: section;
+  content:counter(section) ": ";
 }
